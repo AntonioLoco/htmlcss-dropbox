@@ -151,29 +151,28 @@ a{
 
 .jumbo-photo{
     width: 70%;
-
-
 }
 
 
 /* MAIN */
 
 /* Section BUSINESS PLAN */
-.business-plan{
-
-    /* DEBUG */
-    min-height: 500px;
-    background-color: grey;
-}
 
 /* Section top */
 .business-plan .section-top{
     width: 100%;
+}
 
-    /* DEBUG */
-    min-height: 100px;
-    background-color: #A2F4A5;
-    border: 1px solid black;
+.business-plan .section-top h2{
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.business-plan .section-top .radio-btn{
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-right: 2em;
+    margin-bottom: 1.5em;
 }
 
 /* Section Content */
