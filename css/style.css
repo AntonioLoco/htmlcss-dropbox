@@ -44,6 +44,10 @@ html{
     width: 100%;
     height: 100px;
 
+    position: fixed;
+    top: 0;
+    left: 0;
+
     /* DEBUG */
     background-color: lightcoral;
 }
@@ -86,7 +90,7 @@ html{
 /* HEADER BOTTOM */
 .header-bottom{
     background-color: #B4D0E7;
-    padding-top: 2em ;
+    padding-top: 10em ;
 }
 /* Jumbotron */
 .jumbotron{
