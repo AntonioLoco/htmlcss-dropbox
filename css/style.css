@@ -36,9 +36,37 @@ html{
     margin-bottom: 3em;
 }
 
+/* Reset Img */
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Style Liste */
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 1em;
+}
+
+/* Style link */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Style Button */
+.btn{
+    padding: .5em 1em;
+    background-color: #0061FF;
+    color: white;
+}
+
 
 /* HEADER */
-
 /* HEADER TOP */
 .header-top{
     width: 100%;
@@ -48,44 +76,40 @@ html{
     top: 0;
     left: 0;
 
-    /* DEBUG */
-    background-color: lightcoral;
+    background-color: white;
 }
 .header-left,
 .header-right{
     width: 50%;
-    
-    /* DEBUG */
-    border: 1px solid black;
-    height: 100%;
 }
 /* Header Left */
 /* Logo */
 .header-logo{
     width: 20%;
-
-    /* DEBUG */
-    background-color: lightgreen;
-    border: 1px solid black;
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
+
 /* Link */
 .header-link{
-    width: 40%;
-
-    /* DEBUG */
-    background-color: blue;
-    border: 1px solid black;
-    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
+
 /* Header Right */
 .header-right{
     justify-content: flex-end;
 }
+
 /* Link */
 .header-right .header-link{
-    width: 60%;
+    width: 80%;
+    justify-content: flex-end;
 }
+
 
 /* HEADER BOTTOM */
 .header-bottom{
