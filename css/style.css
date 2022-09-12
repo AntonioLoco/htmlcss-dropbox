@@ -128,7 +128,7 @@ html{
 
 /* MAIN */
 
-/* Section Piani Business */
+/* Section BUSINESS PLAN */
 .business-plan{
 
     /* DEBUG */
@@ -192,7 +192,7 @@ html{
 }
 
 
-/* SECTION PHOTO WITH TEXT */
+/* section PHOTO WITH TEXT */
 .section-photo .photo{
     width: 60%;
 
@@ -210,7 +210,7 @@ html{
 }
 
 
-/* SECTION GRID PHOTO*/
+/* section GRID PHOTO*/
 .grid-photo{
     /* DEBUG */
     height: 400px;
@@ -256,7 +256,7 @@ html{
     background-color: #466B2F;
 }
 
-/* SECTION PARTNER */
+/* section PARTNER */
 .section-partner{
     width: 100%;
     height: 80vh;
@@ -302,7 +302,7 @@ html{
 }
 
 
-/* SECTION DOMANDE */
+/* section DOMANDE */
 .section-question{
 
     /* DEBUG */
@@ -342,6 +342,40 @@ html{
     background-color: #50826A;
 }
 
+
+/* FOOTER */
+footer{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #000000;
+}
+
+footer .big-container{
+
+    /* DEBUG */
+    height: 400px;
+}
+
+.footer-top{
+    justify-content: space-between;
+    /* DEBUG */
+    min-height: 80%;
+    background-color: lightblue;
+}
+
+.footer-top .col{
+    width: calc(100% / 5 - 1em);
+
+    /* DEBUG */
+    background-color: grey;
+}
+
+.footer-bottom{
+
+    /* DEBUG */
+    min-height: 20%;
+    background-color: #AA8F30;
+}
 
 
 
