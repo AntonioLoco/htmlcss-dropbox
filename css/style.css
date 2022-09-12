@@ -180,6 +180,7 @@ html{
     /* DEBUG */
     background-color: blue;
 }
+
 /* Section Footer */
 .business-plan .section-footer{
     width: 100%;
@@ -189,5 +190,24 @@ html{
     background-color: yellow;
     border: 1px solid black;
 }
+
+
+/* SECTION PHOTO WITH TEXT */
+.section-photo .photo{
+    width: 60%;
+
+    /* DEBUG */
+    height: 200px;
+    background-color: #42D1F0;
+}
+
+.section-photo .text{
+    width: 40%;
+
+    /* DEBUG */
+    height: 200px;
+    background-color: lightsalmon;
+}
+
 
 
