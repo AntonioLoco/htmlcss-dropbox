@@ -29,11 +29,11 @@ html{
 
 /* Margin */
 .mg-t{
-    margin-top: 1.5em;
+    margin-top: 3em;
 }
 
 .mg-b{
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
 }
 
 
@@ -158,7 +158,7 @@ html{
     border: 1px solid black;
 }
 
-.section-content .col{
+.business-plan .section-content .col{
     width: calc(100% / 3 - 1em);
     /* DEBUG */
     background-color: orange;
@@ -197,7 +197,7 @@ html{
     width: 60%;
 
     /* DEBUG */
-    height: 200px;
+    min-height: 200px;
     background-color: #42D1F0;
 }
 
@@ -205,9 +205,57 @@ html{
     width: 40%;
 
     /* DEBUG */
-    height: 200px;
+    min-height: 200px;
     background-color: lightsalmon;
 }
+
+
+/* SECTION GRID PHOTO*/
+.grid-photo{
+    /* DEBUG */
+    height: 400px;
+    background-color: grey;
+}
+
+/* Section top */
+.grid-photo .section-top{
+
+    /* DEBUG */
+    height: 20%;
+    background-color: lightseagreen;
+}
+
+/* Section content */
+.grid-photo .section-content{
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    /* DEBUG */
+    height: 80%;
+    background-color: lightblue;
+}
+
+.grid-photo .section-content .col{
+    width: calc(100% / 3 - 1em);
+
+    /* DEBUG */
+    height: 150px;
+}
+
+.col .photo-card{
+    
+    /* DEBUG */
+    height: 45%;
+    background-color: #A8F14B;
+}
+
+.col .text-card{
+    
+    /* DEBUG */
+    height: 55%;
+    background-color: #466B2F;
+}
+
 
 
 
