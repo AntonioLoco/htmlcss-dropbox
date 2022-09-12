@@ -302,6 +302,47 @@ html{
 }
 
 
+/* SECTION DOMANDE */
+.section-question{
+
+    /* DEBUG */
+    height: 230px;
+}
+
+/* Section top */
+.section-question .section-top{
+    
+    /* DEBUG */
+    height: 80px;
+    background-color: #DDE058;
+}
+
+/* Section Main */
+
+.row-question{
+
+    /* DEBUG */
+    height: 50px;
+    border: 1px solid black;
+}
+
+.row-question .text{
+    width: 85%;
+
+    /* DEBUG */
+    height: 100%;
+    background-color: #32FA6A;
+}
+
+.row-question .icon{
+    width: 15%;
+
+    /* DEBUG */
+    height: 100%;
+    background-color: #50826A;
+}
+
+
 
 
 
