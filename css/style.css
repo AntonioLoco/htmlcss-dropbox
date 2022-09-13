@@ -110,12 +110,20 @@ a.btn{
 }
 
 .header-link ul{
+    height: 100%;
     display: flex;
     align-items: center;
 }
 
 .header-link ul li{
+    height: 100%;
+    display: flex;
+    align-items: center;
     margin: 0 1em;
+}
+
+.header-link ul li:hover{
+    border-bottom: 3px solid black;
 }
 
 /* Header Right */
