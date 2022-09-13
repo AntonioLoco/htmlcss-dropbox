@@ -65,6 +65,7 @@ ul li a{
 
 /* Style Button */
 .btn{
+    display: inline-block;
     padding: .5em 1.5em;
     background-color: #0061FF;
     color: white;
@@ -79,6 +80,11 @@ a.btn{
     text-decoration: none;
 }
 
+.hr{
+    display: block;
+    width: 100px;
+    border: 1px solid #DBDBDD;
+}
 
 /* HEADER */
 /* HEADER TOP */
@@ -352,53 +358,121 @@ a.btn{
 /* section PARTNER */
 .section-partner{
     width: 100%;
-    
     /* DEBUG */
     height: 80vh;
-
 }
 
 /* Section top */
-.section-partner .section-top{
-    height: 20%;
+.section-partner .section-top h2{
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+}
 
-    /* DEBUG */
-    background-color: #743333;
+.section-partner .section-top a{
+    display: block;
+    font-size: 1rem;
+    color: blue;
+    margin-bottom: 5em;
 }
 
 /* Section Main */
 .section-partner .section-main{
     height: 60%;
-
-    /* DEBUG */
-    background-color: #DF9F3F;
 }
 
 .photo-partner{
     width: 30%;
+}
 
-    /* DEBUG */
-    min-height: 100%;
+.photo-partner .row{
+    width: calc(100% / 2);
+}
+
+.photo-partner .row .col{
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-partner .row .col img{
+    max-width: 70%;
+}
+
+#designit{
     background-color: #A2D39B;
+    border: 15px solid #D1E9CD;
+}
+
+#florida{
+    background-color: #0093CE;
+}
+
+#arizona{
+    background-color: #61082B;
+}
+
+#topps{
+    background-color: #FF1C1C;
+}
+
+#bicycle_relief{
+    background-color: #D5001F;
+}
+
+#lonely_planet{
+    background-color: #0D2481;
+}
+
+#hearst_corp{
+    background-color: #B4D0E7;
+}
+
+#clear_channel{
+    background-color: #FFD830;
 }
 
 .text-partner{
     width: 40%;
-
-    /* DEBUG */
+    overflow: auto;
     background-color: #F5F5F5;
+}
+
+.text-partner .content svg{
+    max-width: 50%;
+}
+
+.text-partner .content svg,
+.text-partner .content .hr,
+.text-partner .content p{
+    margin-bottom: 1.5em;
 }
 
 /* Section Footer */
 .section-partner .section-footer{
-    height: 20%;
     background-color: #B4D0E7;
 }
+
+.section-partner .section-footer .small-container{
+    padding: 5em 0;
+}
+
+.section-footer .small-container .text{
+    width: 60%;
+    color: #61082B;
+    font-size: 1.8rem;
+}
+
+.section-footer .small-container .button{
+    width: 40%;
+}
+
 
 /* ------------------------------------------------------------ */
 /* section DOMANDE */
 .section-question{
-
+    padding-top: 2em;
     /* DEBUG */
     height: 230px;
 }
