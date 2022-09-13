@@ -92,6 +92,7 @@ a.btn{
     top: 0;
     left: 0;
     background-color: white;
+    z-index: 999;
 }
 
 .header-left,
@@ -489,20 +490,31 @@ a.btn{
 
 /* Section Main */
 .row-question{
-    font-size: 1.2rem;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
     font-weight: 700;
     border-bottom: 1px solid #A0A0A0;
 }
 
 .row-question .text{
+    display: flex;
+    align-items: center;
     width: 85%;
-    padding: 2em 0;
+    padding: 1.5em 0;
 }
 
 .row-question .icon{
     width: 15%;
     text-align: center;
     padding: 2em 0;
+}
+
+.answer{
+    display: block;
+    width: 85%;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 1.5em;
 }
 
 /* ---------------------------------- */
