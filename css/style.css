@@ -142,7 +142,6 @@ a.btn{
 .header-bottom{
     background-color: #B4D0E7;
     padding-top: 10em;
-    padding-bottom: 2em;
 }
 /* Jumbotron */
 /* Jumbo Top */
@@ -178,6 +177,13 @@ a.btn{
 
 .jumbo-photo{
     width: 70%;
+    position: relative;
+}
+
+.jumbo-photo img{
+    top: 15px;
+    left: 0;
+    position: absolute;
 }
 
 
