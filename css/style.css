@@ -174,9 +174,7 @@ a.btn{
     width: 50%;
 }
 
-/* Header Left */
-
-/* Link */
+/* Header Link */
 .header-link{
     width: 60%;
     display: flex;
@@ -192,26 +190,39 @@ a.btn{
 
 .header-link ul li{
     height: 100%;
+    position: relative;
     display: flex;
     align-items: center;
     margin: 0 1em;
 }
 
-.header-link ul li:hover{
+/* Heder sotto menu */
+.sotto-menu{
+    min-width: 100%;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: calc(100% + 3px);
+    padding: 1em;
+    background-color: white;
+}
+
+.header-link ul li:hover {
     border-bottom: 3px solid black;
 }
 
-/* Header Right */
+.header-link ul li:hover .sotto-menu{
+    display: block;
+}
+
 .header-right{
     justify-content: flex-end;
 }
 
-/* Link */
 .header-right .header-link{
     width: 80%;
     justify-content: flex-end;
 }
-
 
 /* HEADER BOTTOM */
 .header-bottom{
