@@ -513,10 +513,13 @@ a.btn{
 }
 
 .row-question .text{
-    display: flex;
-    align-items: center;
     width: 85%;
     padding: 1.5em 0;
+}
+
+.row-question .text .question{
+    display: block;
+    padding-top: .5em;
 }
 
 .row-question .icon{
@@ -526,13 +529,16 @@ a.btn{
 }
 
 .answer{
-    display: block;
-    width: 85%;
+    display: none;
+    width: 100%;
     font-size: 1rem;
     font-weight: 200;
-    margin-bottom: 1.5em;
+    margin-top: 1.5em ;
 }
 
+.row-question .text:hover .answer{
+    display: block;
+}
 /* ---------------------------------- */
 /* FOOTER */
 footer{
