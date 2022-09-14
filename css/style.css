@@ -400,6 +400,10 @@ a.btn{
 }
 
 /* Section Main */
+.section-partner .section-main{
+    height: 40vh;
+}
+
 .photo-partner{
     width: 30%;
 }
@@ -475,6 +479,9 @@ a.btn{
 .section-partner .section-footer{
     align-items: center;
     background-color: #B4D0E7;
+}
+.section-partner .section-footer .small-container{
+    padding: 3em 0;
 }
 
 .section-footer .small-container .text{
