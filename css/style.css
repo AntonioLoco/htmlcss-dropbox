@@ -63,14 +63,27 @@ ul li a{
 .btn{
     display: inline-block;
     padding: .5em 1.5em;
+}
+
+
+.btn.blue{
     background-color: #0061FF;
     color: white;
+}
+
+.btn.blue:hover{
+background-color: #448afa;
 }
 
 .btn.white{
     background-color: #fff;
     color: black;
 }
+
+.btn.white:hover{
+    background-color: #e2e2e2;
+}
+
 
 a.btn{
     text-decoration: none;
@@ -397,6 +410,7 @@ a.btn{
 
 .photo-partner .row .col{
     min-height: 50%;
+    padding: 1em;
 
     display: flex;
     justify-content: center;
