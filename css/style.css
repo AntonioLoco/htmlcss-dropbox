@@ -555,7 +555,7 @@ footer{
     margin-bottom: 1em;
 }
 
-.footer-top .col ul li{
+.footer-top .col ul li a{
     color: rgba(255, 255, 255, 0.647);
     display: block;
     margin-bottom: .5em;
@@ -573,4 +573,9 @@ footer{
     color: rgba(255, 255, 255, 0.647);
     display: block;
     padding: 2em 0;
+}
+
+.footer-bottom a{
+    text-decoration: none;
+    color: inherit;
 }
