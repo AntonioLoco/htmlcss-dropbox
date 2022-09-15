@@ -467,7 +467,8 @@ a.btn{
 
 /* Section Main */
 .section-partner .section-main{
-    height: 40vh;
+    /* height: 40vh; */
+    height: calc(100vw / 3); 
 }
 
 .photo-partner{
