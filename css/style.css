@@ -628,9 +628,13 @@ footer{
 }
 
 .footer-top .col ul li a{
-    color: rgba(255, 255, 255, 0.647);
+    color: rgba(255, 255, 255, 0.8);
     display: block;
     margin-bottom: .5em;
+}
+
+.footer-top .col ul li:hover {
+    transform: scale(1.2);
 }
 
 /* Footer Bottom */
